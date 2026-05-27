@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Counter</title>
+</head>
+
+<body>
+    <h1>Список книг</h1>
+    <div>
+        <label for="book-title">Название книги</label>
+        <input type="text" id="book-title" placeholder="Введите название">
+    </div>
+
+    <div>
+        <label for="book-author">Автор:</label>
+        <input type="text" id="book-author" placeholder="Введите автора">
+    </div>
+
+    <br>
+
+    <button id="add-btn">Добавить книгу</button>
+
+    <br><br>
+
+    <div id="error-block" style="color: red;"></div>
+
+    <div>
+        <strong>Всего книг:</strong> <span id="book-counter">0</span>
+    </div>
+
+    <br>
+
+    <div id="book-container"></div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
